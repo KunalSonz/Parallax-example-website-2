@@ -1,0 +1,256 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+.fold1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.navigationBar {
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  background: transparent;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  position: relative;
+  left: 50%;
+  top: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar h1 {
+  color: white;
+  position: relative;
+  left: 20%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+}
+
+.Fold1bg {
+  height: 130vh;
+}
+
+.Fold1girl {
+  height: 115vh;
+}
+
+.Fold1rock {
+  height: 115vh;
+}
+
+.container img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.mainTitle {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  font-size: 4rem;
+  transform: translate(-30%, -40%);
+  color: white;
+}
+
+.mainTitle h3 {
+  margin: 0px;
+}
+
+.mainTitle p {
+  font-size: 30px;
+}
+
+.fold2 {
+  /* background-image: url(bgmoon.jpg); */
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fold2Container {
+  width: 100%;
+  height: auto;
+}
+
+/* .fold3 {
+  position: absolute;
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+} */
+
+.fold2Container img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.secondTitle {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+  /* top: 20%; */
+  left: 10%;
+}
+
+.secondTitle a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 40%;
+  padding: 10px 25px 10px 25px;
+  font-size: 30px;
+  transition: padding 1s;
+}
+
+.secondTitle a:hover {
+  padding: 20px;
+}
+
+.aboutUS {
+  background-image: url("aboutusbg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.abnavbar {
+  position: absolute;
+  display: flex;
+  background: transparent;
+  width: 100%;
+}
+
+.abnavbar ul {
+  display: flex;
+  position: relative;
+  left: 50%;
+  top: 30px;
+}
+
+.abnavbar ul li {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.abnavbar ul li a {
+  text-decoration: none;
+  outline: none;
+  color: brown;
+  font-size: 20px;
+}
+
+.abnavbar h1 {
+  color: brown;
+  position: relative;
+  left: 20%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.abcontent {
+  padding: 100px;
+}
+
+.abcontent p {
+  font-size: 25px;
+  color: brown;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar ul {
+    left: 20%;
+  }
+
+  .abnavbar ul {
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar h1 {
+    font-size: 25px;
+    left: 10%;
+  }
+
+  .navbar ul {
+    left: 10%;
+    margin: 0px;
+  }
+
+  .navbar ul li a {
+    font-size: 15px;
+  }
+
+  .abnavbar h1 {
+    font-size: 25px;
+    left: 10%;
+  }
+
+  .abnavbar ul {
+    left: 10%;
+    margin: 0px;
+  }
+
+  .abnavbar ul li a {
+    font-size: 15px;
+  }
+
+  .mainTitle {
+    font-size: 2rem;
+  }
+
+  .mainTitle p {
+    font-size: 20px;
+  }
+
+  .abcontent {
+    padding: 30px;
+  }
+
+  .abcontent p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar ul {
+    left: 0%;
+  }
+}
